@@ -18,5 +18,31 @@ void test_validate_my_username()
      * TODO: Replace the line below with your code here as described above to verify your /conf/username.txt 
      * config file and my_username() functions are setup properly
      */
+
+
     TEST_ASSERT_TRUE_MESSAGE(false,"AESD students, please fix me!");
+}
+/**
+* @return true (as you may have guessed from the name)
+*/
+bool this_function_returns_true()
+{
+    return true;
+}
+
+/**
+* @return false (as you may have guessed from the name)
+*/
+bool this_function_returns_false()
+{
+    return false;
+}
+
+/**
+ * @return a string which contains the username you use for
+ * git submissions.  This string should match the string in conf/username.txt
+ */
+const char *my_username()
+{
+    return "todo-please-enter-your-username-here-in-my_username";
 }
