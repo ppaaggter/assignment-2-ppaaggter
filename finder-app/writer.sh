@@ -10,4 +10,15 @@ then
 fi
 
 
+
+if [ ! -e $writefile ]
+then
+
+    mkdir -p $writefile
+    rm -rf $writefile
+
+fi
+
+
 echo $writestr > $writefile || exit 1
+
